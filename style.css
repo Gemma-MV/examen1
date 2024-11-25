@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 320px;
+    margin-bottom: 80px;
+    padding: 50px 0;
+    color: #3d5587;
+    background: url('img/header.webp') center / cover no-repeat;
+    text-align: center;
+}
+.divHeader{
+    margin: 80px 15%;
+    padding: 30px;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.divHeader h1{
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #5d6c8b;
+}
+.divHeader p{
+    padding: 40px 0 0;
+    font-size: 1.5em;
+}
+nav{
+    background: #5d6c8b;
+}
+nav ul{
+    padding: 20px 150px;
+    display: flex;
+}
+nav li{
+    margin-right: 60px;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fffef4;
+    font-size: 1.2em;
+}
+main{
+    height: 100%;
+    background: url('img/fondo.jpg') repeat;
+    position: relative;
+}
+.carrito{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -150px;
+    right: 80px;
+}
+.claseTienda{
+    margin: 10px 120px 50px;
+    padding: 50px 80px;
+    background: #fffef4;
+    border: 2px solid #5d6c8b;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    gap: 20px;
+}
+.claseProducto{
+    margin: 10px;
+    padding: 20px;
+    height: 575px;
+    background: #e3f0ff;
+    border: 1px solid #5d6c8b;
+    border-radius: 15px;
+    position: relative;
+}
+h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2, .clasePequeño p{
+    color: #3a4a6b;
+}
+.clasePequeño p{
+    font-size: 0.8em;
+}
+.imgTienda {
+    height: 125px;
+    width: 150px;
+    margin: 5px 30% 15px;
+}
+h3{
+    margin: 15px 0;
+}
+.categoria{
+    margin: 15px 0;
+    color: #3a4a6b;
+}
+.classComprar{
+    position: absolute;
+    left: 33%;
+    bottom: 20px;
+}
+.classComprar h3, .clasedivEjemplo h3{
+    text-align: center;
+}
+.classBoton{
+    width: 130px;
+    padding: 5px 0;
+    font-size: 1.1em;
+    background: #fffef4;
+    color: #5d6c8b;
+    border: 1px solid #5d6c8b;
+    border-radius: 5px;
+}
+.classBoton:hover{
+    background: #5d6c8b;
+    color: #fffef4;
+    border: 1px solid #fffef4;
+}
+.h2Ej{
+    margin: 90px 0 50px;
+}
+.clasedivEjemplo{
+    margin: 30px auto;
+    padding: 20px;
+    height: 450px;
+    width: 300px;
+    background: #e3f0ff;
+    border: 1px solid #5d6c8b;
+    border-radius: 15px;
+}
+.clasedivEjemplo img{
+    height: 125px;
+    width: 150px;
+    margin: 5px 25% 15px;
+}
+footer{
+    padding: 20px 0;
+    background: #5d6c8b;
+    color: #fffef4;
+    font-size: 1.2em;
+    text-align: center;
+}
